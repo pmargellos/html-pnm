@@ -1,0 +1,121 @@
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    overflow-wrap: break-word;
+  }
+  header, footer {
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  header h1 {
+    text-shadow: 2px 2px 2px darkslategray;
+    /* border: 3px solid red; */
+    margin: 0;
+    float: left;
+    font-family: 'Conastoga', cursive;
+    letter-spacing: 1px;
+    font-style:italic;
+   
+  }
+  header nav {
+    float: right;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  header ul {
+     /* background-color: green; */
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+  
+  }
+  header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+     /* background-color: yellow; */
+    font-size: 16px;
+   }
+   header a {
+    color: white;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 6%);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+  }
+  header a:hover {
+    background-color: deeppink;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid white;
+  }
+  .active {
+    border-bottom: 3px solid white !important;
+  }
+  
+  footer a {
+    color: white;
+  }
+  footer a:hover {
+    color:  #f00000;
+    background-color: white;
+  }
+  
+  
+  main {
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    float: left;
+  }
+  aside {
+    float: left;
+    padding: 10px;
+  } 
+  #left {
+    width: 20%;
+  }
+  #right {
+    width: 30%;
+  }
+  #left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #left a {
+    background-color: #080808;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px #333333;
+    border-radius: 5px;
+  }
+  #left a:hover {
+    background-color: #f00000;
+  }
+  #right section {
+    background-color: #f00000;
+     color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 5%);
+  }
+  #right h3, #right p {
+    margin: 0 0 10px 0;
+  }
+  
+  
